@@ -2131,7 +2131,7 @@
                <artifactId>maven-compiler-plugin</artifactId>
                <version>${version.maven-compiler-plugin}</version>
                <configuration>
-                  <release>8</release>
+                  <release>7</release>
                   <encoding>UTF-8</encoding>
                   <excludes>
                      <exclude>**/package-info.java</exclude>

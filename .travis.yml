@@ -1,10 +1,10 @@
 language: java
 dist: bionic
-install: true
+
 arch: 
   ppc64le
 jdk:
   - openjdk8
 script:
-  mvn install
-  mvn -s maven-settings.xml clean install -DskipTests=true
+  
+  - mvn -Dmaven.javadoc.skip=true package

@@ -6,4 +6,4 @@ language: java
 jdk:
   - openjdk11
 script:
- - mvn clean install
+ - mvn -s maven-settings.xml clean install -Dmaven.test.failure.ignore=true
